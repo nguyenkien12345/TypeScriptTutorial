@@ -1,0 +1,17 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "learn type-script",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "trung kien",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  }
+}

@@ -1,0 +1,8 @@
+- Cài đặt các thư viện: npm install typescript ts-node @types/node ts-lib ts-jest @types/jest
+- Compile ts sang js: tsc index.ts
+- ts-node index.ts: nó sẽ làm 1 lúc 2 chuyện là vừa compile ts sang js đồng thời chạy file js vừa được compile luôn
+- test command: jest --coverage
+- Tạo file jest.config.js mặc định: npx ts-jest config:init
+- Tạo file tsconfig.json: npx tsc --init
+- Trong file tsconfig.json sửa: "module": "es2015",
+- Khi cài ts ở local thì dùng lệnh "npx tsc ..." thay vì "tsc ..."

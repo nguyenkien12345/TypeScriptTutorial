@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CART</title>
+  </head>
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <body>
+
+    <div class="container">
+
+      <!-- Start Thong Bao -->
+      <div class="row pt-3">
+        <div class="col-sm-12 col-md-12 thongbao">
+        </div>
+      </div>
+      <!-- End Thong Bao -->
+
+	  <hr/>
+
+	  <!-- Start Tiêu đề giỏ hàng-->
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <h3 class="tieude">GIỎ HÀNG <span id="slgh"></span></h3>
+        </div>
+      </div>
+	  <!-- End Tiêu đề giỏ hàng-->
+
+	  <!-- Start Main -->
+      <div class="row">
+        <!-- Start Danh sách sản phẩm -->
+        <div class="col-sm-8 col-md-8" id="dssanpham">
+			<!-- Start sản phẩm giỏ hàng -->
+			<div class="card dssanphamgiohang">
+			</div>
+			<!-- End sản phẩm giỏ hàng -->
+
+			<!-- Start sản phẩm cửa hàng -->
+			<div class="row dssanpham">
+				<div class="col-sm-12 col-md-12 py-3">
+					<h3 class="tieude">Sản phẩm</h3>
+				</div>
+				<div class="row data_sanpham">
+
+				</div>
+			</div>
+			<!-- End sản phẩm cửa hàng  -->
+		</div>
+        <!-- End Danh sách sản phẩm -->
+
+        <!-- Start Tính giá sản phẩm -->
+        <div class="col-sm-4 col-md-4 tinhgia">
+			<div class="div_white card card-block">
+				<!-- Start dongtinhgia -->
+				<div class="dongtinhgia">
+					<div class="dongtinhgia_phai" style="float: right">
+						<span id="thanhtien"></span>
+					</div>
+					<div class="dongtinhgia_trai">
+						</span>Tạm tính: </span>
+					</div>
+				</div>
+				<!-- End dongtinhgia -->
+
+				<!-- Start dongthanhtien -->
+				<div class="dongthanhtien">
+					<div class="dongthanhtien_phai" style="float: right">
+						<span id="tongtien"></span>
+						<span class="vat" style="display: block;">(Đã bao gồm VAT)</span>
+					</div>
+					<div class="dongthanhtien_trai">
+						<span>Tạm tính: </span>
+					</div>
+				</div>
+				<!-- End dongthanhtien -->
+				<a href="" class="btn btn-danger btnDatHang">Tiến hành đặt hàng</a>
+			</div>
+		</div>
+        <!-- End Tính giá sản phẩm -->
+      </div>
+	  <!-- End Main -->
+
+    </div>
+
+	<script src='js/bundle.js'></script>
+    <script src='https://use.fontawesome.com/d71f2b8e66.js'></script>
+  </body>
+</html>

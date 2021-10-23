@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+a, a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+
+a,input,button,select {
+	outline: none;
+}
+
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	background: #f3f3f3;
+}
+
+h3.tieude {
+	text-shadow: 1px 2px 2px lightblue;
+	font-weight: bold;
+	padding: 15px 0px;
+}
+
+a:hover {
+	color: blueviolet;
+	background-color: antiquewhite;
+}
+
+.dssanpham {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sanpham {
+	padding: 10px;
+}
+
+	.sanpham .tieudesanpham {
+		display: block;
+		color: black;
+		font-weight: 600;
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+
+	.sanpham .noidungsp {
+		color: #ccc;
+		font-weight: 500;
+	}
+
+	.sanpham .gia {
+		font-size: 12px;
+		font-weight: bolder;
+		color: #414141;
+	}
+
+	.sanpham .sales{
+		display: block;
+		width: 50%;
+		margin: 5px auto;
+	}
+
+	.sanpham .soluongsp{
+		width: 50px;
+		padding: 5px 0px 5px 0px;
+		line-height: 20px;
+	}
+
+.btn {
+	border-radius: 10px;
+	margin: 0px 5px 0px 5px;
+	text-transform: uppercase;
+	color: black;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.btn:hover {
+	color: chocolate;
+	background-color: aquamarine;
+}
+
+.sanphamcuahang {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 5px;
+}
+
+	.sanphamcuahang .tieudespkhac {
+		display: inline-block;
+		color: black;
+		font-weight: 600;
+		font-size: 16px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.sanphamcuahang .motaspkhac {
+		font-size: 14px;
+		font-weight: 400;
+		color: #ccc;
+		margin: 0px 0px 5px 0px;
+	}
+
+	.sanphamcuahang .giaspkhac {
+		display: block;
+		margin: 5px 0px 5px 0px;
+	}
+
+	.sanphamcuahang .btnBuy {
+		box-shadow: 1px 2px 3px darksalmon;
+		background-color: darkkhaki;
+	} 
+
+	.div_white {
+		padding: 10px;
+	}
+
+.dongtinhgia {
+	padding:10px 0px 20px 0px;
+	border-bottom: 1px solid #dbdbdb;
+	margin-bottom: 15px;
+}
+
+	.dongtinhgia_trai { 
+		font-size: 14px;
+		font-weight: 700;
+		color: black;
+	} 
+
+	.dongtinhgia_phai {
+		font-size: 14px;
+		font-weight: normal;
+		color: #414141;
+	}
+
+.dongthanhtien {
+	padding:10px 0px 20px 0px;
+}
+
+.dongthanhtien .dongthanhtien_phai {
+	text-align: right;
+	font-size: 18px;
+}
+
+.dongthanhtien_phai .vat{
+	font-size: 27px;
+	color: red;
+}
+
+.spk {
+	margin: 10px 0px;
+}

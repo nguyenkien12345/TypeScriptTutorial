@@ -1,0 +1,25 @@
+{
+  "name": "quanlynhanvien",
+  "version": "1.0.0",
+  "description": "ung dung quan ly nhan vien",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "dev": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "trung kien",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.9.1",
+    "lite-server": "^2.6.1",
+    "nodemon": "^2.0.12",
+    "save": "^2.4.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.8.0"
+  }
+}
